@@ -57,7 +57,11 @@
             <version>3.141.59</version>
         </dependency>
         <!-- Thanks for using https://jar-download.com -->
-
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>6.13.0</version>
+        </dependency>
 
     </dependencies>
 

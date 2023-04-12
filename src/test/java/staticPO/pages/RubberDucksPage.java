@@ -3,31 +3,73 @@ package staticPO.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
 public class RubberDucksPage extends BasePage {
-    private static final By rubberDucks = By.xpath("//a[@href='https://litecart.stqa.ru/en/rubber-ducks-c-1/']");
+    private final By rubberDucks = By.xpath("//a[text()='Rubber Ducks']");
 
-    private static final By buttonData =  By.cssSelector("[href='https://litecart.stqa.ru/en/rubber-ducks-c-1/?category_id=1&page=1&sort=date']");
+    private final By buttonData = By.xpath("//a[text()='Date']");
 
-    private static final By buttonName = By.cssSelector("[href='https://litecart.stqa.ru/en/rubber-ducks-c-1/?category_id=1&page=1&sort=name']");
+    private final By buttonName = By.xpath("//a[text()='Name']");
+    private final By numberOfDucks = By.cssSelector(".product.column.shadow.hover-light");
+    public By priceOfDuckOnDatePage = By.xpath("//a[@title='Yellow Duck']/div//strong");
+    public By priceOfDuckOnNamePage = By.xpath("//a[@title='Blue Duck']/div/span");
+    public int expectedCount = 5;
+    public String expectedPriceOnDatePage = "$18";
+    public String expectedPriceOnNamePage = "$20";
 
-    public RubberDucksPage(WebDriver driver) {
-        super(driver);
+
+    public RubberDucksPage(WebDriver webDriver) {
+        super(webDriver);
     }
 
-    public static void goToRubberDucks(WebDriver driver) {
-        driver.findElement(rubberDucks).click();
+
+
+    public void clickRubberDucks() {
+
+//        wait.until(ExpectedConditions.presenceOfElementLocated(rubberDucks));
+        webDriver.findElement(rubberDucks).click();
     }
 
-    public static void goToDatePage(WebDriver driver) {
-        driver.findElement(buttonData).click();
+    public void clickDatePage() {
+
+        webDriver.findElement(buttonData).click();
     }
 
-    public static void goToNamePage(WebDriver driver) {
-        driver.findElement(buttonName).click();
+    public void clickNamePage() {
+
+        webDriver.findElement(buttonName).click();
     }
+    public int getCountOfDucks() {
+        List<WebElement> number = webDriver.findElements(numberOfDucks);
+        return number.size();
+    }
+
+    public void checkRubberDucksAppeared() {
+        wait.until(ExpectedConditions.presenceOfElementLocated(rubberDucks));
+
+    }
+    public void checkDatePageAppeared() {
+        wait.until(ExpectedConditions.presenceOfElementLocated(buttonData));
+    }
+    public void checkNanePageAppeared() {
+        wait.until(ExpectedConditions.presenceOfElementLocated(buttonName));
+    }
+
+    public void goToRubberDucks() {
+        checkRubberDucksAppeared();
+        clickRubberDucks();
+    }
+    public void goToDatePage() {
+        checkDatePageAppeared();
+        clickDatePage();
+    }
+    public void goToNamePage() {
+        checkDatePageAppeared();
+        clickNamePage();
+    }
+
 
 }
