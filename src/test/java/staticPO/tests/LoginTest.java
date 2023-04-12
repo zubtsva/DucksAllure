@@ -1,7 +1,7 @@
 package staticPO.tests;
-
-import org.testng.Assert;
 import org.testng.annotations.Test;
+import static com.codeborne.selenide.Condition.exactText;
+import static com.codeborne.selenide.Selenide.$;
 
 
 public class LoginTest extends BaseTest {
@@ -11,21 +11,13 @@ public class LoginTest extends BaseTest {
     public void unsuccessfulLoginTest() {
         loginPage.attemptIncorrectLogin();
         loginPage.getMessageError();
-
-        Assert.assertEquals(
-                webDriver.findElement(loginPage.errorMessage).getText(),
-                loginPage.expectedErrorMessage);
+        $(loginPage.errorMessage).shouldHave(exactText(loginPage.expectedErrorMessage));
     }
 
     @Test
     public void successfulLoginTest() {
         loginPage.attemptCorrectLogin();
         loginPage.getMessageSuccess();
-
-        Assert.assertEquals(
-                webDriver.findElement(loginPage.successMessage).getText(),
-                loginPage.expectedSuccessMessage);
-
+        $(loginPage.successMessage).shouldHave(exactText(loginPage.expectedSuccessMessage));
     }
-
 }

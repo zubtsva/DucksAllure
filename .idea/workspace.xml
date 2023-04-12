@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="DuckTest">
+    <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/RubberDucksPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/BaseTest.java" afterDir="false" />
@@ -63,42 +61,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.successfulLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Duck" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="staticPO.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="staticPO.tests" />
-      <option name="MAIN_CLASS_NAME" value="staticPO.tests.LoginTest" />
-      <option name="METHOD_NAME" value="successfulLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.unsuccessfulLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Duck" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="staticPO.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="staticPO.tests" />
-      <option name="MAIN_CLASS_NAME" value="staticPO.tests.LoginTest" />
-      <option name="METHOD_NAME" value="unsuccessfulLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RubberDucksTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Duck" />
       <extension name="coverage">
@@ -116,16 +78,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="staticPO" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RubberDucksTest.checkNamesOfDucksList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Duck" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="staticPO.*" />
+          <option name="PATTERN" value="staticPO.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="staticPO" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PACKAGE_NAME" value="staticPO.tests" />
+      <option name="MAIN_CLASS_NAME" value="staticPO.tests.RubberDucksTest" />
+      <option name="METHOD_NAME" value="checkNamesOfDucksList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RubberDucksTest.numberOfDucks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Duck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="staticPO.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="staticPO.tests" />
+      <option name="MAIN_CLASS_NAME" value="staticPO.tests.RubberDucksTest" />
+      <option name="METHOD_NAME" value="numberOfDucks" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RubberDucksTest.sizeOfCollectionOfDucks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Duck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="staticPO.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="staticPO.tests" />
+      <option name="MAIN_CLASS_NAME" value="staticPO.tests.RubberDucksTest" />
+      <option name="METHOD_NAME" value="sizeOfCollectionOfDucks" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -136,9 +136,9 @@
       <list>
         <item itemvalue="TestNG.RubberDucksTest" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.successfulLoginTest" />
-        <item itemvalue="TestNG.LoginTest.unsuccessfulLoginTest" />
-        <item itemvalue="TestNG.staticPO" />
+        <item itemvalue="TestNG.RubberDucksTest.numberOfDucks" />
+        <item itemvalue="TestNG.RubberDucksTest.sizeOfCollectionOfDucks" />
+        <item itemvalue="TestNG.RubberDucksTest.checkNamesOfDucksList" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681128508630</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1681319360329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681319360329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DuckTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="DuckTest" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>

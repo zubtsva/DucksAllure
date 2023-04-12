@@ -1,5 +1,6 @@
 package staticPO.tests;
 
+import com.codeborne.selenide.WebDriverRunner;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,6 +9,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import staticPO.pages.LoginPage;
 import staticPO.pages.RubberDucksPage;
+
+import static com.codeborne.selenide.Selenide.open;
 
 public class BaseTest {
 
@@ -23,6 +26,7 @@ public class BaseTest {
         webDriver.manage().window().maximize();
         loginPage = new LoginPage(webDriver);
         rubberDucksPage = new RubberDucksPage(webDriver);
+        WebDriverRunner.setWebDriver(webDriver);
 
 
     }
@@ -30,7 +34,7 @@ public class BaseTest {
     @BeforeMethod
     public void beforeMethod() {
         webDriver.manage().deleteAllCookies();
-        webDriver.get(baseUrl);
+        open(baseUrl);
     }
 
 

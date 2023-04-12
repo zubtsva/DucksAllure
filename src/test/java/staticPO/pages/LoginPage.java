@@ -3,10 +3,9 @@ package staticPO.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage extends BasePage {
-
-
 
     private final By emailInput = By.name("email");
     private final By passwordInput = By.name("password");
@@ -29,14 +28,14 @@ public class LoginPage extends BasePage {
 
 
     public void attemptCorrectLogin() {
-        webDriver.findElement(emailInput).sendKeys(correctUsername);
-        webDriver.findElement(passwordInput).sendKeys(correctPassword);
-        webDriver.findElement(loginButton).click();
+        $(emailInput).sendKeys(correctUsername);
+        $(passwordInput).sendKeys(correctPassword);
+        $(loginButton).click();
     }
     public void attemptIncorrectLogin() {
-        webDriver.findElement(emailInput).sendKeys(incorrectUsername);
-        webDriver.findElement(passwordInput).sendKeys(incorrectPassword);
-        webDriver.findElement(loginButton).click();
+        $(emailInput).sendKeys(incorrectUsername);
+        $(passwordInput).sendKeys(incorrectPassword);
+        $(loginButton).click();
     }
 
     public String getMessageError() {
