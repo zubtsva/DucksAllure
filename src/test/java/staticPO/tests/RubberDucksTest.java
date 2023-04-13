@@ -62,4 +62,12 @@ public class RubberDucksTest extends BaseTest {
         $(rubberDucksPage.searchButton).pressEnter();
         $(rubberDucksPage.priceOfDuckAfterSearch).shouldHave(Condition.exactText(rubberDucksPage.expectedPriceOfDuckAfterSearch));
     }
+
+    @Test
+    public void changeCurrencyTest() { //меняем валютю на евро и проверяем цену первой уточки
+        rubberDucksPage.changeCurrency();
+        $(rubberDucksPage.currencyChangeButton).selectOption("Euros");
+        $(rubberDucksPage.currencyChangeButton).pressEnter();
+        $(rubberDucksPage.priceOfDuckEUR).shouldHave(Condition.exactText(rubberDucksPage.expectedPriceOfDuckEUR));
+    }
 }

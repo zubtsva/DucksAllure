@@ -13,6 +13,8 @@ public class RubberDucksPage extends BasePage {
     private final By buttonName = By.xpath("//a[text()='Name']");
     private final By subcategoryButton = By.xpath("//ul[@class='list-vertical']//a[contains(text(),'Subcategory')]");
     public By searchButton = By.xpath("//*[@type='search']");
+    private final By changeButton = By.xpath("//a[@class='fancybox-region']");
+    public By currencyChangeButton = By.xpath("//select[@name='currency_code']");
     public By priceOfDuckOnDatePage = By.xpath("//a[@title='Yellow Duck']/div//strong");
     public By priceOfDuckOnNamePage = By.xpath("//a[@title='Blue Duck']/div/span");
     public int expectedCount = 5;
@@ -25,6 +27,8 @@ public class RubberDucksPage extends BasePage {
     public By priceOfDuckAfterSearch = By.xpath("//div[@class='price-wrapper']/span");
     public String expectedPriceOfDuckAfterSearch = "$20";
     public String textForSearch = "Green Duck";
+    public By priceOfDuckEUR = By.xpath("//a[@title='Green Duck']//span");
+    public String expectedPriceOfDuckEUR = "14.52 €";
 
 
     public RubberDucksPage(WebDriver webDriver) {
@@ -56,5 +60,10 @@ public class RubberDucksPage extends BasePage {
     public String searchGreenDuck() {
         $(searchButton).click();
         return $(priceOfDuckAfterSearch).getText();
+    }
+
+    public String changeCurrency() {
+        $(changeButton).click();
+        return $(priceOfDuckEUR).getText();
     }
 }

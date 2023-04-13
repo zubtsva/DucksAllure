@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="Selenide">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/RubberDucksPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/RubberDucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/RubberDucksTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +75,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RubberDucksTest.changeCurrencyTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Duck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="staticPO.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="staticPO.tests" />
+      <option name="MAIN_CLASS_NAME" value="staticPO.tests.RubberDucksTest" />
+      <option name="METHOD_NAME" value="changeCurrencyTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RubberDucksTest.checkNamesOfDucksList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Duck" />
       <extension name="coverage">
@@ -89,24 +104,6 @@
       <option name="PACKAGE_NAME" value="staticPO.tests" />
       <option name="MAIN_CLASS_NAME" value="staticPO.tests.RubberDucksTest" />
       <option name="METHOD_NAME" value="checkNamesOfDucksList" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RubberDucksTest.descriptionOfYellowDuckTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Duck" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="staticPO.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="staticPO.tests" />
-      <option name="MAIN_CLASS_NAME" value="staticPO.tests.RubberDucksTest" />
-      <option name="METHOD_NAME" value="descriptionOfYellowDuckTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,10 +132,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RubberDucksTest" />
+        <item itemvalue="TestNG.RubberDucksTest.changeCurrencyTest" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.RubberDucksTest.checkNamesOfDucksList" />
         <item itemvalue="TestNG.RubberDucksTest.searchTest" />
-        <item itemvalue="TestNG.RubberDucksTest.descriptionOfYellowDuckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681335484325</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Selenide">
+      <created>1681390351832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681390351832</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
