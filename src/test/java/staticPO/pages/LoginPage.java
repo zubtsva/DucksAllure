@@ -2,7 +2,6 @@ package staticPO.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage extends BasePage {
@@ -10,8 +9,6 @@ public class LoginPage extends BasePage {
     private final By emailInput = By.name("email");
     private final By passwordInput = By.name("password");
     private final By loginButton = By.name("login");
-    private final By messageError = By.cssSelector("[class='notice errors']");
-
     private final String correctUsername = "l.zubtsova@mail.ru";
     private final String correctPassword = "14031993Atc";
     private final String incorrectUsername = "l.zubtsova@gmail.com";
@@ -26,27 +23,15 @@ public class LoginPage extends BasePage {
         super(webDriver);
     }
 
-
     public void attemptCorrectLogin() {
         $(emailInput).sendKeys(correctUsername);
         $(passwordInput).sendKeys(correctPassword);
         $(loginButton).click();
     }
+
     public void attemptIncorrectLogin() {
         $(emailInput).sendKeys(incorrectUsername);
         $(passwordInput).sendKeys(incorrectPassword);
         $(loginButton).click();
-    }
-
-    public String getMessageError() {
-        wait.until(ExpectedConditions.presenceOfElementLocated(messageError));
-        System.out.println(webDriver.findElement(messageError).getText());
-        return null;
-    }
-
-    public String getMessageSuccess() {
-        wait.until(ExpectedConditions.presenceOfElementLocated(successMessage));
-        System.out.println(webDriver.findElement(successMessage).getText());
-        return null;
     }
 }

@@ -12,23 +12,24 @@ public class RubberDucksTest extends BaseTest {
 
     @Test
     public void numberOfDucks() {
-        rubberDucksPage.goToRubberDucks();
+        rubberDucksPage.clickRubberDucks();
+        rubberDucksPage.getNumberOfDucks();
         ElementsCollection numOfDucks = $$(rubberDucksPage.numberOfDucks);
         numOfDucks.shouldBe(CollectionCondition.size(rubberDucksPage.expectedCount));
     }
 
     @Test
     public void priceOfTheFirstDuckOnDatePage() {
-        rubberDucksPage.goToRubberDucks();
-        rubberDucksPage.goToDatePage();
+        rubberDucksPage.clickRubberDucks();
+        rubberDucksPage.clickDatePage();
         $(rubberDucksPage.priceOfDuckOnDatePage)
                 .shouldHave(Condition.exactText(rubberDucksPage.expectedPriceOnDatePage));
     }
 
     @Test
     public void priceOfTheFirstDuckOnNamePage() {
-        rubberDucksPage.goToRubberDucks();
-        rubberDucksPage.goToNamePage();
+        rubberDucksPage.clickRubberDucks();
+        rubberDucksPage.clickNamePage();
         $(rubberDucksPage.priceOfDuckOnNamePage)
                 .shouldHave(Condition.exactText(rubberDucksPage.expectedPriceOnNamePage));
     }
@@ -38,8 +39,7 @@ public class RubberDucksTest extends BaseTest {
         ElementsCollection ducksList = $$(rubberDucksPage.ducksListHomePage);
         ducksList.shouldBe(CollectionCondition.
                 containExactTextsCaseSensitive("Blue Duck", "Green Duck",
-                        "Yellow Duck", "Purple Duck", "Red Duck", "Yellow Duck", "Yellow Duck", "Green Duck",
-                        "Red Duck", "Blue Duck", "Purple Duck"));
+                        "Yellow Duck", "Purple Duck", "Red Duck"));
     }
 
     @Test //проверяем размер коллекции уточек(11)
@@ -48,5 +48,18 @@ public class RubberDucksTest extends BaseTest {
         ducksList.shouldBe(CollectionCondition.size(rubberDucksPage.size));
     }
 
+    @Test  //заходим на RubberDucksPage, затем кликаем на SubcategoryPage, проверяем описание желтой уточки
+    public void descriptionOfYellowDuckTest() {
+        rubberDucksPage.clickRubberDucks();
+        rubberDucksPage.getDescriptionFromYellowDuckOnSubcategoryPage();
+        $(rubberDucksPage.descriptionOfYellowDuck).shouldHave(Condition.exactText(rubberDucksPage.expectedDescription));
+    }
 
+    @Test
+    public void searchTest() { //в поиске ищем "Green Duck", в открывшейся странице проверяем цену уточки
+        rubberDucksPage.searchGreenDuck();
+        $(rubberDucksPage.searchButton).sendKeys(rubberDucksPage.textForSearch);
+        $(rubberDucksPage.searchButton).pressEnter();
+        $(rubberDucksPage.priceOfDuckAfterSearch).shouldHave(Condition.exactText(rubberDucksPage.expectedPriceOfDuckAfterSearch));
+    }
 }

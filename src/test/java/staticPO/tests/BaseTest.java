@@ -27,8 +27,6 @@ public class BaseTest {
         loginPage = new LoginPage(webDriver);
         rubberDucksPage = new RubberDucksPage(webDriver);
         WebDriverRunner.setWebDriver(webDriver);
-
-
     }
 
     @BeforeMethod
@@ -36,7 +34,6 @@ public class BaseTest {
         webDriver.manage().deleteAllCookies();
         open(baseUrl);
     }
-
 
     @AfterTest
     public void teardown() {
