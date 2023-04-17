@@ -1,0 +1,98 @@
+2023-04-15 18:34:30 Thread: [main] INFO [staticPO.tests.Listener] On start
+2023-04-15 18:34:30 Thread: [main] INFO [staticPO.tests.BaseTest] Before test started
+2023-04-15 18:34:41 Thread: [main] INFO [staticPO.tests.BaseTest] Before test ended
+2023-04-15 18:34:41 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-15 18:34:45 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-15 18:34:46 Thread: [main] INFO [staticPO.tests.Listener] Test start
+2023-04-15 18:34:46 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:34:49 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572889423.png
+2023-04-15 18:34:51 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:34:52 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572892449.png
+2023-04-15 18:34:52 Thread: [main] INFO [staticPO.tests.Listener] Test passed
+2023-04-15 18:34:52 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-15 18:34:52 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-15 18:34:52 Thread: [main] INFO [staticPO.tests.Listener] Test start
+2023-04-15 18:34:52 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:34:53 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572893932.png
+2023-04-15 18:34:54 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:34:55 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572895126.png
+2023-04-15 18:34:55 Thread: [main] INFO [staticPO.tests.Listener] Test passed
+2023-04-15 18:34:55 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-15 18:34:55 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-15 18:34:55 Thread: [main] INFO [staticPO.tests.Listener] Test start
+2023-04-15 18:34:55 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:34:56 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572896367.png
+2023-04-15 18:34:57 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:34:57 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572897808.png
+2023-04-15 18:34:57 Thread: [main] INFO [staticPO.tests.Listener] Test passed
+2023-04-15 18:34:57 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-15 18:34:57 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-15 18:34:58 Thread: [main] INFO [staticPO.tests.Listener] Test start
+2023-04-15 18:34:58 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:34:58 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572898990.png
+2023-04-15 18:34:59 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:00 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572900017.png
+2023-04-15 18:35:00 Thread: [main] INFO [staticPO.tests.Listener] Test passed
+2023-04-15 18:35:00 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-15 18:35:00 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-15 18:35:00 Thread: [main] INFO [staticPO.tests.Listener] Test start
+2023-04-15 18:35:00 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:01 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572901273.png
+2023-04-15 18:35:01 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:02 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572902600.png
+2023-04-15 18:35:02 Thread: [main] INFO [staticPO.tests.Listener] Test passed
+2023-04-15 18:35:02 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-15 18:35:02 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-15 18:35:03 Thread: [main] INFO [staticPO.tests.Listener] Test start
+2023-04-15 18:35:03 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:04 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572904205.png
+2023-04-15 18:35:05 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:05 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572905608.png
+2023-04-15 18:35:05 Thread: [main] INFO [staticPO.tests.Listener] Test passed
+2023-04-15 18:35:05 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-15 18:35:05 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-15 18:35:05 Thread: [main] INFO [staticPO.tests.Listener] Test start
+2023-04-15 18:35:05 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:06 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572906790.png
+2023-04-15 18:35:07 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:08 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572908381.png
+2023-04-15 18:35:08 Thread: [main] INFO [staticPO.tests.Listener] Test passed
+2023-04-15 18:35:08 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-15 18:35:08 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-15 18:35:08 Thread: [main] INFO [staticPO.tests.Listener] Test start
+2023-04-15 18:35:08 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:09 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572909621.png
+2023-04-15 18:35:09 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:10 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572910493.png
+2023-04-15 18:35:10 Thread: [main] INFO [staticPO.tests.Listener] Test passed
+2023-04-15 18:35:10 Thread: [main] INFO [staticPO.tests.BaseTest] Test ended
+2023-04-15 18:35:10 Thread: [main] INFO [staticPO.tests.BaseTest] Before test started
+2023-04-15 18:35:18 Thread: [main] INFO [staticPO.tests.BaseTest] Before test ended
+2023-04-15 18:35:18 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-15 18:35:19 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-15 18:35:20 Thread: [main] INFO [staticPO.tests.Listener] Test start
+2023-04-15 18:35:20 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:22 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572922107.png
+2023-04-15 18:35:22 Thread: [main] INFO [staticPO.tests.BaseTest] successfulLoginTest
+2023-04-15 18:35:22 Thread: [main] INFO [staticPO.pages.LoginPage] start login with l.zubtsova@mail.ru
+2023-04-15 18:35:22 Thread: [main] INFO [staticPO.pages.LoginPage] start login with 14031993Atc
+2023-04-15 18:35:22 Thread: [main] INFO [staticPO.pages.LoginPage] start clicking Button login 
+2023-04-15 18:35:22 Thread: [main] INFO [staticPO.pages.LoginPage] Method ends
+2023-04-15 18:35:23 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:24 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572924007.png
+2023-04-15 18:35:24 Thread: [main] INFO [staticPO.tests.Listener] Test passed
+2023-04-15 18:35:24 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-15 18:35:24 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-15 18:35:24 Thread: [main] INFO [staticPO.tests.Listener] Test start
+2023-04-15 18:35:24 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:25 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572925438.png
+2023-04-15 18:35:25 Thread: [main] INFO [staticPO.tests.BaseTest] unsuccessfulLoginTest()
+2023-04-15 18:35:25 Thread: [main] INFO [staticPO.pages.LoginPage] start login with l.zubtsova@gmail.com
+2023-04-15 18:35:25 Thread: [main] INFO [staticPO.pages.LoginPage] start login with 14033Atc
+2023-04-15 18:35:25 Thread: [main] INFO [staticPO.pages.LoginPage] start clicking Button login 
+2023-04-15 18:35:29 Thread: [main] INFO [staticPO.pages.LoginPage] Method ends
+2023-04-15 18:35:29 Thread: [main] INFO [staticPO.tests.Listener] Start getting screen
+2023-04-15 18:35:29 Thread: [main] INFO [staticPO.tests.Listener] Screen was saved to src/main/resources/screen_1681572929673.png
+2023-04-15 18:35:29 Thread: [main] INFO [staticPO.tests.Listener] Test passed
+2023-04-15 18:35:29 Thread: [main] INFO [staticPO.tests.BaseTest] Test ended
+2023-04-15 18:35:30 Thread: [main] INFO [staticPO.tests.Listener] On finish

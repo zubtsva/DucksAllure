@@ -2,41 +2,56 @@ package staticPO.tests;
 
 import com.codeborne.selenide.WebDriverRunner;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import staticPO.pages.LoginPage;
 import staticPO.pages.RubberDucksPage;
 
-import static com.codeborne.selenide.Selenide.open;
+import java.io.File;
 
+import static com.codeborne.selenide.Selenide.open;
+import static org.openqa.selenium.OutputType.FILE;
+
+@Listeners(Listener.class)
 public class BaseTest {
 
     WebDriver webDriver;
     LoginPage loginPage;
     RubberDucksPage rubberDucksPage;
     String baseUrl = "https://litecart.stqa.ru/en/";
+    Logger logger = Logger.getLogger(BaseTest.class);
 
-    @BeforeTest
+    @BeforeClass
     public void setup() {
+        logger.info("Before test started");
         WebDriverManager.chromedriver().setup();
         webDriver = new ChromeDriver();
         webDriver.manage().window().maximize();
         loginPage = new LoginPage(webDriver);
         rubberDucksPage = new RubberDucksPage(webDriver);
         WebDriverRunner.setWebDriver(webDriver);
+        logger.info("Before test ended");
+
+
     }
 
     @BeforeMethod
     public void beforeMethod() {
+        logger.info("Before method deleting cookies");
         webDriver.manage().deleteAllCookies();
+        logger.info("Opening " + baseUrl);
         open(baseUrl);
+
     }
 
-    @AfterTest
+    @AfterClass
     public void teardown() {
+        logger.info("Test ended");
         webDriver.quit();
     }
 }

@@ -4,8 +4,12 @@ import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import org.testng.annotations.Test;
+
+import java.io.File;
+
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
+import static org.openqa.selenium.OutputType.FILE;
 
 public class RubberDucksTest extends BaseTest {
 
@@ -52,7 +56,7 @@ public class RubberDucksTest extends BaseTest {
     public void descriptionOfYellowDuckTest() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.getDescriptionFromYellowDuckOnSubcategoryPage();
-        $(rubberDucksPage.descriptionOfYellowDuck).shouldHave(Condition.exactText(rubberDucksPage.expectedDescription));
+        $(rubberDucksPage.descriptionOfYellowDuck).shouldHave(Condition.exactText(rubberDucksPage.expectedDescription + "!!!"));
     }
 
     @Test

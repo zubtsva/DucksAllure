@@ -10,6 +10,7 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void unsuccessfulLoginTest() {
+        logger.info("unsuccessfulLoginTest()");
         loginPage.attemptIncorrectLogin();
         $(loginPage.errorMessage).should(Condition.exist);
         $(loginPage.errorMessage).shouldHave(exactText(loginPage.expectedErrorMessage));
@@ -17,6 +18,7 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void successfulLoginTest() {
+        logger.info("successfulLoginTest");
         loginPage.attemptCorrectLogin();
         $(loginPage.successMessage).should(Condition.exist);
         $(loginPage.successMessage).shouldHave(exactText(loginPage.expectedSuccessMessage));
