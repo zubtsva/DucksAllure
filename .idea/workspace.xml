@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="Selenide">
-      <change beforePath="$PROJECT_DIR$/catcher.log" beforeDir="false" afterPath="$PROJECT_DIR$/catcher.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/RubberDucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/RubberDucksTest.java" afterDir="false" />
+    <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="Selenide Assert">
+      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/RubberDucksPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681390351832</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Selenide Assert">
+      <created>1681920710161</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681920710161</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +204,7 @@
     <MESSAGE value="DuckTest" />
     <MESSAGE value="Update" />
     <MESSAGE value="Selenide" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenide" />
+    <MESSAGE value="Selenide Assert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenide Assert" />
   </component>
 </project>

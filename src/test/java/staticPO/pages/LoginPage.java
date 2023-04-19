@@ -7,13 +7,13 @@ import org.apache.log4j.Logger;
 
 public class LoginPage extends BasePage {
 
-    private final By emailInput = By.name("email");
-    private final By passwordInput = By.name("password");
-    private final By loginButton = By.name("login");
-    private final String correctUsername = "l.zubtsova@mail.ru";
-    private final String correctPassword = "14031993Atc";
-    private final String incorrectUsername = "l.zubtsova@gmail.com";
-    private final String incorrectPassword = "14033Atc";
+    private final By EMAIL_INPUT = By.name("email");
+    private final By PASSWORD_INPUT = By.name("password");
+    private final By LOGIN_BUTTON = By.name("login");
+    private final String CORRECT_USERNAME = "l.zubtsova@mail.ru";
+    private final String CORRECT_PASSWORD = "14031993Atc";
+    private final String INCORRECT_USERNAME = "l.zubtsova@gmail.com";
+    private final String INCORRECT_PASSWORD = "14033Atc";
     public By successMessage = By.xpath("//div[@class='notice success']");
     public String expectedSuccessMessage = "You are now logged in as L Z.";
     public By errorMessage = By.xpath("//div[@class='notice errors']");
@@ -25,22 +25,22 @@ public class LoginPage extends BasePage {
     }
 
     public void attemptCorrectLogin() {
-        logger.info("start login with " + correctUsername);
-        $(emailInput).sendKeys(correctUsername);
-        logger.info("start login with " + correctPassword);
-        $(passwordInput).sendKeys(correctPassword);
+        logger.info("start login with " + CORRECT_USERNAME);
+        $(EMAIL_INPUT).sendKeys(CORRECT_USERNAME);
+        logger.info("start login with " + CORRECT_USERNAME);
+        $(PASSWORD_INPUT).sendKeys(CORRECT_PASSWORD);
         logger.info("start clicking Button login ");
-        $(loginButton).click();
+        $(LOGIN_BUTTON).click();
         logger.info("Method ends");
     }
 
     public void attemptIncorrectLogin() {
-        logger.info("start login with " + incorrectUsername);
-        $(emailInput).sendKeys(incorrectUsername);
-        logger.info("start login with " + incorrectPassword);
-        $(passwordInput).sendKeys(incorrectPassword);
+        logger.info("start login with " + INCORRECT_USERNAME);
+        $(EMAIL_INPUT).sendKeys(INCORRECT_USERNAME);
+        logger.info("start login with " + INCORRECT_PASSWORD);
+        $(PASSWORD_INPUT).sendKeys(INCORRECT_PASSWORD);
         logger.info("start clicking Button login ");
-        $(loginButton).click();
+        $(LOGIN_BUTTON).click();
         logger.info("Method ends");
     }
 }

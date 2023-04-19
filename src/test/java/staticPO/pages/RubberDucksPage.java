@@ -7,13 +7,13 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class RubberDucksPage extends BasePage {
-    public final By numberOfDucks = By.cssSelector(".product.column.shadow.hover-light");
-    private final By rubberDucks = By.xpath("//a[text()='Rubber Ducks']");
-    private final By buttonData = By.xpath("//a[text()='Date']");
-    private final By buttonName = By.xpath("//a[text()='Name']");
-    private final By subcategoryButton = By.xpath("//ul[@class='list-vertical']//a[contains(text(),'Subcategory')]");
+    public final By NUMBER_OF_DUCKS = By.cssSelector(".product.column.shadow.hover-light");
+    private final By RUBBER_DUCKS = By.xpath("//a[text()='Rubber Ducks']");
+    private final By BUTTON_DATA = By.xpath("//a[text()='Date']");
+    private final By BUTTON_NAME = By.xpath("//a[text()='Name']");
+    private final By SUBCATEGORY_BUTTON = By.xpath("//ul[@class='list-vertical']//a[contains(text(),'Subcategory')]");
     public By searchButton = By.xpath("//*[@type='search']");
-    private final By changeButton = By.xpath("//a[@class='fancybox-region']");
+    private final By CHANCE_BUTTON = By.xpath("//a[@class='fancybox-region']");
     public By currencyChangeButton = By.xpath("//select[@name='currency_code']");
     public By priceOfDuckOnDatePage = By.xpath("//a[@title='Yellow Duck']/div//strong");
     public By priceOfDuckOnNamePage = By.xpath("//a[@title='Blue Duck']/div/span");
@@ -36,24 +36,24 @@ public class RubberDucksPage extends BasePage {
     }
 
     public void clickRubberDucks() {
-        $(rubberDucks).click();
+        $(RUBBER_DUCKS).click();
     }
 
     public void clickDatePage() {
-        $(buttonData).click();
+        $(BUTTON_DATA).click();
     }
 
     public void clickNamePage() {
-        $(buttonName).click();
+        $(BUTTON_NAME).click();
     }
 
     public String getDescriptionFromYellowDuckOnSubcategoryPage() {
-        $(subcategoryButton).click();
+        $(SUBCATEGORY_BUTTON).click();
         return $(descriptionOfYellowDuck).getText();
     }
 
     public int getNumberOfDucks() {
-        ElementsCollection number = $$(numberOfDucks);
+        ElementsCollection number = $$(NUMBER_OF_DUCKS);
         return number.size();
     }
 
@@ -63,7 +63,7 @@ public class RubberDucksPage extends BasePage {
     }
 
     public String changeCurrency() {
-        $(changeButton).click();
+        $(CHANCE_BUTTON).click();
         return $(priceOfDuckEUR).getText();
     }
 }
