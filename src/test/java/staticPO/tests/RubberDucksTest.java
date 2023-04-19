@@ -3,6 +3,7 @@ package staticPO.tests;
 import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -26,16 +27,18 @@ public class RubberDucksTest extends BaseTest {
     public void priceOfTheFirstDuckOnDatePage() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.clickDatePage();
-        $(rubberDucksPage.priceOfDuckOnDatePage)
-                .shouldHave(Condition.exactText(rubberDucksPage.expectedPriceOnDatePage));
+        Assert.assertEquals(
+                $(rubberDucksPage.priceOfDuckOnDatePage).getText(),
+                rubberDucksPage.expectedPriceOnDatePage);
     }
 
     @Test
     public void priceOfTheFirstDuckOnNamePage() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.clickNamePage();
-        $(rubberDucksPage.priceOfDuckOnNamePage)
-                .shouldHave(Condition.exactText(rubberDucksPage.expectedPriceOnNamePage));
+        Assert.assertEquals(
+                $(rubberDucksPage.priceOfDuckOnNamePage).getText(),
+                rubberDucksPage.expectedPriceOnNamePage);
     }
 
     @Test //проверяем имена в списке уточек
@@ -56,7 +59,10 @@ public class RubberDucksTest extends BaseTest {
     public void descriptionOfYellowDuckTest() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.getDescriptionFromYellowDuckOnSubcategoryPage();
-        $(rubberDucksPage.descriptionOfYellowDuck).shouldHave(Condition.exactText(rubberDucksPage.expectedDescription + "!!!"));
+        Assert.assertEquals(
+                $(rubberDucksPage.descriptionOfYellowDuck).getText(),
+                rubberDucksPage.expectedDescription + "!!!!");
+
     }
 
     @Test
@@ -64,7 +70,9 @@ public class RubberDucksTest extends BaseTest {
         rubberDucksPage.searchGreenDuck();
         $(rubberDucksPage.searchButton).sendKeys(rubberDucksPage.textForSearch);
         $(rubberDucksPage.searchButton).pressEnter();
-        $(rubberDucksPage.priceOfDuckAfterSearch).shouldHave(Condition.exactText(rubberDucksPage.expectedPriceOfDuckAfterSearch));
+        Assert.assertEquals(
+                $(rubberDucksPage.priceOfDuckAfterSearch).getText(),
+                rubberDucksPage.expectedPriceOfDuckAfterSearch);
     }
 
     @Test
@@ -72,6 +80,8 @@ public class RubberDucksTest extends BaseTest {
         rubberDucksPage.changeCurrency();
         $(rubberDucksPage.currencyChangeButton).selectOption("Euros");
         $(rubberDucksPage.currencyChangeButton).pressEnter();
-        $(rubberDucksPage.priceOfDuckEUR).shouldHave(Condition.exactText(rubberDucksPage.expectedPriceOfDuckEUR));
+        Assert.assertEquals(
+                $(rubberDucksPage.priceOfDuckEUR).getText(),
+                rubberDucksPage.expectedPriceOfDuckEUR);
     }
 }

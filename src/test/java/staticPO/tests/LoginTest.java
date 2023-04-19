@@ -1,5 +1,6 @@
 package staticPO.tests;
 import com.codeborne.selenide.Condition;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selenide.$;
@@ -13,7 +14,9 @@ public class LoginTest extends BaseTest {
         logger.info("unsuccessfulLoginTest()");
         loginPage.attemptIncorrectLogin();
         $(loginPage.errorMessage).should(Condition.exist);
-        $(loginPage.errorMessage).shouldHave(exactText(loginPage.expectedErrorMessage));
+        Assert.assertEquals(
+                $(loginPage.errorMessage).getText(),
+                loginPage.expectedErrorMessage);
     }
 
     @Test
@@ -21,6 +24,8 @@ public class LoginTest extends BaseTest {
         logger.info("successfulLoginTest");
         loginPage.attemptCorrectLogin();
         $(loginPage.successMessage).should(Condition.exist);
-        $(loginPage.successMessage).shouldHave(exactText(loginPage.expectedSuccessMessage));
+        Assert.assertEquals(
+                $(loginPage.successMessage).getText(),
+                loginPage.expectedSuccessMessage);
     }
 }
