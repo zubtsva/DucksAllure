@@ -6,13 +6,10 @@ import com.codeborne.selenide.ElementsCollection;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.io.File;
-
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
-import static org.openqa.selenium.OutputType.FILE;
 
-public class RubberDucksTest extends BaseTest {
+public class DucksTest extends BaseTest {
 
 
     @Test
@@ -83,5 +80,24 @@ public class RubberDucksTest extends BaseTest {
         Assert.assertEquals(
                 $(rubberDucksPage.priceOfDuckEUR).getText(),
                 rubberDucksPage.expectedPriceOfDuckEUR);
+    }
+    @Test
+    public void unsuccessfulLoginTest() {
+        logger.info("unsuccessfulLoginTest()");
+        loginPage.attemptIncorrectLogin();
+        $(loginPage.errorMessage).should(Condition.exist);
+        Assert.assertEquals(
+                $(loginPage.errorMessage).getText(),
+                loginPage.expectedErrorMessage);
+    }
+
+    @Test
+    public void successfulLoginTest() {
+        logger.info("successfulLoginTest");
+        loginPage.attemptCorrectLogin();
+        $(loginPage.successMessage).should(Condition.exist);
+        Assert.assertEquals(
+                $(loginPage.successMessage).getText(),
+                loginPage.expectedSuccessMessage);
     }
 }
