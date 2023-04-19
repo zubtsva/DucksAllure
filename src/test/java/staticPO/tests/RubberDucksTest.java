@@ -19,7 +19,7 @@ public class RubberDucksTest extends BaseTest {
     public void numberOfDucks() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.getNumberOfDucks();
-        ElementsCollection numOfDucks = $$(rubberDucksPage.numberOfDucks);
+        ElementsCollection numOfDucks = $$(rubberDucksPage.NUMBER_OF_DUCKS);
         numOfDucks.shouldBe(CollectionCondition.size(rubberDucksPage.expectedCount));
     }
 
