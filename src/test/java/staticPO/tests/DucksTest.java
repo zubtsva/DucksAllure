@@ -104,7 +104,7 @@ public class DucksTest extends BaseTest {
     public void loginWithoutPasswordTest() {
         logger.info("loginWithoutPasswordTest");
         loginPage.attemptLoginWithoutPassword();
-        $(loginPage.errorMessage).should(Condition.exist);
+        $(loginPage.expectedErrorMessageWithoutPassword).should(Condition.exist);
         Assert.assertEquals(
                 $(loginPage.errorMessageWithoutPassword).getText(),
                 loginPage.expectedErrorMessageWithoutPassword);
@@ -113,9 +113,9 @@ public class DucksTest extends BaseTest {
     public void loginWithEmptyFieldsTest() {
         logger.info("loginWithEmptyFieldsTest");
         loginPage.attemptLoginWithEmptyFields();
-        $(loginPage.errorMessage).should(Condition.exist);
+        $(loginPage.loginLink).should(Condition.exist);
         Assert.assertEquals(
-                $(loginPage.logintLink).getText(),
+                $(loginPage.loginLink).getText(),
                 loginPage.expectedTextOfTheLink);
     }
 

@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="Selenide Assert">
+      <change afterPath="$PROJECT_DIR$/allure-results/47f1239f-0806-48ee-8175-1e37b77c0958-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/489a845d-db5f-4291-a4a6-c3a2687875b9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4e3fe03a-f88c-4178-9059-e987289d8308-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5a152a35-3e3e-4d00-8f5e-8aa7e6e64920-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/746a7a0e-69d0-4187-a4a9-79ca726737ce-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7a9aa0f3-4b17-42ac-9d9d-a1a7261b6f1e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9ac294f3-9b64-427c-892c-c8bb1626ff35-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aa3bb078-a088-43f3-9534-b5e3b9ac2e88-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c72b8e63-c8cc-4a18-ae5a-1f36a935c239-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d73b42ce-6172-465e-ac1e-d17f4e6cbe53-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catcher.log" beforeDir="false" afterPath="$PROJECT_DIR$/catcher.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/DucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/DucksTest.java" afterDir="false" />
     </list>
@@ -48,7 +59,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DucksTest.loginWithoutPasswordTest">
+  <component name="RunManager" selected="TestNG.DucksTest.loginWithEmptyFieldsTest">
     <configuration name="DucksTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Duck" />
       <extension name="coverage">
@@ -84,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DucksTest.checkNamesOfDucksList" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Duck" />
+    <configuration name="DucksTest.loginWithEmptyFieldsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chromeWeb" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="staticPO.tests.*" />
@@ -94,7 +105,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="staticPO.tests" />
       <option name="MAIN_CLASS_NAME" value="staticPO.tests.DucksTest" />
-      <option name="METHOD_NAME" value="checkNamesOfDucksList" />
+      <option name="METHOD_NAME" value="loginWithEmptyFieldsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DucksTest.loginWithEmptyFieldsTest" />
         <item itemvalue="TestNG.DucksTest.loginWithoutPasswordTest" />
         <item itemvalue="TestNG.DucksTest" />
         <item itemvalue="TestNG.DucksTest.changeCurrencyTest" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.DucksTest.checkNamesOfDucksList" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682082540275</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Selenide Assert">
+      <created>1682085544192</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682085544192</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -21,8 +21,8 @@ public class LoginPage extends BasePage {
     public String expectedErrorMessage = "Wrong password or the account is disabled, or does not exist";
     public By errorMessageWithoutPassword = By.xpath("//div[@class='notice errors']");
     public String expectedErrorMessageWithoutPassword = "You must provide both email address and password.";
-    public By logintLink = By.xpath("//nav//a[@href='https://litecart.stqa.ru/en/login']");
-    public String  expectedTextOfTheLink = "Logout";
+    public By loginLink = By.xpath("//nav//a[@href='https://litecart.stqa.ru/en/login']");
+    public String  expectedTextOfTheLink = "Login";
 
     Logger logger = Logger.getLogger(LoginPage.class);
     public LoginPage(WebDriver webDriver) {
