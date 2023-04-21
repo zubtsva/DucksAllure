@@ -100,4 +100,23 @@ public class DucksTest extends BaseTest {
                 $(loginPage.successMessage).getText(),
                 loginPage.expectedSuccessMessage);
     }
+    @Test
+    public void loginWithoutPasswordTest() {
+        logger.info("loginWithoutPasswordTest");
+        loginPage.attemptLoginWithoutPassword();
+        $(loginPage.errorMessage).should(Condition.exist);
+        Assert.assertEquals(
+                $(loginPage.errorMessageWithoutPassword).getText(),
+                loginPage.expectedErrorMessageWithoutPassword);
+    }
+    @Test
+    public void loginWithEmptyFieldsTest() {
+        logger.info("loginWithEmptyFieldsTest");
+        loginPage.attemptLoginWithEmptyFields();
+        $(loginPage.errorMessage).should(Condition.exist);
+        Assert.assertEquals(
+                $(loginPage.logintLink).getText(),
+                loginPage.expectedTextOfTheLink);
+    }
+
 }
