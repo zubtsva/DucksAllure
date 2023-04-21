@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="Selenide Assert">
+      <change afterPath="$PROJECT_DIR$/catcher.log.2023-04-19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Listener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catcher.log" beforeDir="false" afterPath="$PROJECT_DIR$/catcher.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/RubberDucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/DucksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/Listener.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.DucksTest">
     <configuration name="DucksTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Duck" />
       <extension name="coverage">
@@ -201,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681921853940</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Selenide Assert">
+      <created>1681922763059</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681922763059</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

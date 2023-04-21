@@ -3,19 +3,17 @@ package staticPO.tests;
 import com.codeborne.selenide.WebDriverRunner;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.Logger;
+import org.example.Listener;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.*;
+
 import staticPO.pages.LoginPage;
 import staticPO.pages.RubberDucksPage;
 
-import java.io.File;
+import java.time.Duration;
 
 import static com.codeborne.selenide.Selenide.open;
-import static org.openqa.selenium.OutputType.FILE;
 
 @Listeners(Listener.class)
 public class BaseTest {
