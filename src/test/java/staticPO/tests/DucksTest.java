@@ -104,7 +104,7 @@ public class DucksTest extends BaseTest {
     public void loginWithoutPasswordTest() {
         logger.info("loginWithoutPasswordTest");
         loginPage.attemptLoginWithoutPassword();
-        $(loginPage.expectedErrorMessageWithoutPassword).should(Condition.exist);
+        $(loginPage.errorMessageWithoutPassword).should(Condition.exist);
         Assert.assertEquals(
                 $(loginPage.errorMessageWithoutPassword).getText(),
                 loginPage.expectedErrorMessageWithoutPassword);

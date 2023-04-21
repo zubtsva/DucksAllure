@@ -229,3 +229,24 @@
 2023-04-21 17:30:58 Thread: [main] INFO [staticPO.pages.LoginPage] start clicking Button login 
 2023-04-21 17:30:59 Thread: [main] INFO [staticPO.pages.LoginPage] Method ends
 2023-04-21 17:30:59 Thread: [main] INFO [staticPO.tests.BaseTest] Test ended
+2023-04-21 17:35:49 Thread: [main] INFO [staticPO.tests.BaseTest] Before test started
+2023-04-21 17:36:00 Thread: [main] INFO [staticPO.tests.BaseTest] Before test ended
+2023-04-21 17:36:00 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-21 17:36:00 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 17:36:01 Thread: [main] INFO [staticPO.tests.BaseTest] loginWithoutPasswordTest
+2023-04-21 17:36:01 Thread: [main] INFO [staticPO.pages.LoginPage] start login with l.zubtsova@mail.ru
+2023-04-21 17:36:02 Thread: [main] INFO [staticPO.pages.LoginPage] start clicking Button login 
+2023-04-21 17:36:03 Thread: [main] INFO [staticPO.pages.LoginPage] Method ends
+2023-04-21 17:36:03 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 17:36:04 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 17:36:04 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 17:36:04 Thread: [main] INFO [staticPO.tests.BaseTest] Test ended
+2023-04-21 17:36:33 Thread: [main] INFO [staticPO.tests.BaseTest] Before test started
+2023-04-21 17:36:43 Thread: [main] INFO [staticPO.tests.BaseTest] Before test ended
+2023-04-21 17:36:43 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-21 17:36:43 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 17:36:44 Thread: [main] INFO [staticPO.tests.BaseTest] loginWithoutPasswordTest
+2023-04-21 17:36:44 Thread: [main] INFO [staticPO.pages.LoginPage] start login with l.zubtsova@mail.ru
+2023-04-21 17:36:44 Thread: [main] INFO [staticPO.pages.LoginPage] start clicking Button login 
+2023-04-21 17:36:45 Thread: [main] INFO [staticPO.pages.LoginPage] Method ends
+2023-04-21 17:36:45 Thread: [main] INFO [staticPO.tests.BaseTest] Test ended

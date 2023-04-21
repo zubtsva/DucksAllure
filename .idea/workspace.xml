@@ -5,19 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="Selenide Assert">
-      <change afterPath="$PROJECT_DIR$/allure-results/47f1239f-0806-48ee-8175-1e37b77c0958-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/489a845d-db5f-4291-a4a6-c3a2687875b9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4e3fe03a-f88c-4178-9059-e987289d8308-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5a152a35-3e3e-4d00-8f5e-8aa7e6e64920-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/746a7a0e-69d0-4187-a4a9-79ca726737ce-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7a9aa0f3-4b17-42ac-9d9d-a1a7261b6f1e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9ac294f3-9b64-427c-892c-c8bb1626ff35-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/aa3bb078-a088-43f3-9534-b5e3b9ac2e88-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c72b8e63-c8cc-4a18-ae5a-1f36a935c239-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d73b42ce-6172-465e-ac1e-d17f4e6cbe53-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1d5d25e0-5f35-4330-a6c9-f4cd3fdc5601-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2299e0c0-f654-48ba-9820-a0754b46922f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4eb9a6cc-d597-43ba-ad17-41dbe2eb59bb-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4f191a60-a21f-4dd3-bf4c-0393a2cbfa22-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/534ae37e-042a-4a1d-ad88-bd51bcf11f51-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/96c7daeb-0eaf-4b5b-ae7b-afe04da81d23-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bceecb3b-a0a2-400b-904c-5184e2ab2657-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d2ea69be-a382-4cef-80c6-64c6faa28264-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d996c28a-6a32-46ce-a291-6b33a9b0bd11-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f2e63614-4025-44db-8b11-966b7cf096d2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f674ce52-7f06-4e31-af1e-ab3acc6d07f6-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catcher.log" beforeDir="false" afterPath="$PROJECT_DIR$/catcher.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/DucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/DucksTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DucksTest.loginWithEmptyFieldsTest">
+  <component name="RunManager" selected="TestNG.DucksTest.loginWithoutPasswordTest">
     <configuration name="DucksTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Duck" />
       <extension name="coverage">
@@ -150,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DucksTest.loginWithEmptyFieldsTest" />
         <item itemvalue="TestNG.DucksTest.loginWithoutPasswordTest" />
+        <item itemvalue="TestNG.DucksTest.loginWithEmptyFieldsTest" />
         <item itemvalue="TestNG.DucksTest" />
         <item itemvalue="TestNG.DucksTest.changeCurrencyTest" />
         <item itemvalue="TestNG.LoginTest" />
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682085544192</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Selenide Assert">
+      <created>1682087499490</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682087499490</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
