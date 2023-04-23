@@ -23,6 +23,7 @@ public class DucksTest extends BaseTest {
     }
 
     @Test
+    @Description ("Go to Date Page and check price of the first duck")
     public void priceOfTheFirstDuckOnDatePage() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.clickDatePage();
@@ -32,6 +33,7 @@ public class DucksTest extends BaseTest {
     }
 
     @Test
+    @Description ("Go to Name Page and check price of the first duck")
     public void priceOfTheFirstDuckOnNamePage() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.clickNamePage();
@@ -40,7 +42,8 @@ public class DucksTest extends BaseTest {
                 rubberDucksPage.expectedPriceOnNamePage);
     }
 
-    @Test //проверяем имена в списке уточек
+    @Test
+    @Description ("Check names of the ducks on the Rubber Ducks Page")
     public void checkNamesOfDucksList() {
         ElementsCollection ducksList = $$(rubberDucksPage.ducksListHomePage);
         ducksList.shouldBe(CollectionCondition.
@@ -49,12 +52,14 @@ public class DucksTest extends BaseTest {
     }
 
     @Test //проверяем размер коллекции уточек(11)
+    @Description ("Count number of ducks on the first page")
     public void sizeOfCollectionOfDucks() {
         ElementsCollection ducksList = $$(rubberDucksPage.ducksListHomePage);
         ducksList.shouldBe(CollectionCondition.size(rubberDucksPage.size));
     }
 
     @Test  //заходим на RubberDucksPage, затем кликаем на SubcategoryPage, проверяем описание желтой уточки
+    @Description ("Check description of the yellow duck on subcategory page ")
     public void descriptionOfYellowDuckTest() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.getDescriptionFromYellowDuckOnSubcategoryPage();

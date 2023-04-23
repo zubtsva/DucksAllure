@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="Selenide Assert">
-      <change beforePath="$PROJECT_DIR$/catcher.log" beforeDir="false" afterPath="$PROJECT_DIR$/catcher.log" afterDir="false" />
+    <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="Descriptions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/DucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/DucksTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682087499490</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Descriptions">
+      <created>1682234713091</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682234713091</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +259,7 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Selenide" />
     <MESSAGE value="Selenide Assert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenide Assert" />
+    <MESSAGE value="Descriptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Descriptions" />
   </component>
 </project>
