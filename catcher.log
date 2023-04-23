@@ -250,3 +250,50 @@
 2023-04-21 17:36:44 Thread: [main] INFO [staticPO.pages.LoginPage] start clicking Button login 
 2023-04-21 17:36:45 Thread: [main] INFO [staticPO.pages.LoginPage] Method ends
 2023-04-21 17:36:45 Thread: [main] INFO [staticPO.tests.BaseTest] Test ended
+2023-04-23 10:20:37 Thread: [main] INFO [staticPO.tests.BaseTest] Before test started
+2023-04-23 10:21:00 Thread: [main] INFO [staticPO.tests.BaseTest] Before test ended
+2023-04-23 10:21:00 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-23 10:21:02 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-23 10:21:14 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-23 10:21:15 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-23 10:21:17 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-23 10:21:17 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-23 10:21:19 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-23 10:21:20 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-23 10:21:20 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-23 10:21:20 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-23 10:21:21 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-23 10:21:27 Thread: [main] INFO [staticPO.tests.BaseTest] loginWithEmptyFieldsTest
+2023-04-23 10:21:27 Thread: [main] INFO [staticPO.pages.LoginPage] start clicking Button login 
+2023-04-23 10:21:27 Thread: [main] INFO [staticPO.pages.LoginPage] Method ends
+2023-04-23 10:21:27 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-23 10:21:28 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-23 10:21:33 Thread: [main] INFO [staticPO.tests.BaseTest] loginWithoutPasswordTest
+2023-04-23 10:21:33 Thread: [main] INFO [staticPO.pages.LoginPage] start login with l.zubtsova@mail.ru
+2023-04-23 10:21:33 Thread: [main] INFO [staticPO.pages.LoginPage] start clicking Button login 
+2023-04-23 10:21:36 Thread: [main] INFO [staticPO.pages.LoginPage] Method ends
+2023-04-23 10:21:36 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-23 10:21:36 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-23 10:21:38 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-23 10:21:39 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-23 10:21:41 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-23 10:21:41 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-23 10:21:42 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-23 10:21:42 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-23 10:21:45 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-23 10:21:45 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-23 10:21:46 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-23 10:21:46 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-23 10:21:46 Thread: [main] INFO [staticPO.tests.BaseTest] successfulLoginTest
+2023-04-23 10:21:46 Thread: [main] INFO [staticPO.pages.LoginPage] start login with l.zubtsova@mail.ru
+2023-04-23 10:21:46 Thread: [main] INFO [staticPO.pages.LoginPage] start login with l.zubtsova@mail.ru
+2023-04-23 10:21:46 Thread: [main] INFO [staticPO.pages.LoginPage] start clicking Button login 
+2023-04-23 10:21:48 Thread: [main] INFO [staticPO.pages.LoginPage] Method ends
+2023-04-23 10:21:48 Thread: [main] INFO [staticPO.tests.BaseTest] Before method deleting cookies
+2023-04-23 10:21:48 Thread: [main] INFO [staticPO.tests.BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-23 10:21:48 Thread: [main] INFO [staticPO.tests.BaseTest] unsuccessfulLoginTest()
+2023-04-23 10:21:48 Thread: [main] INFO [staticPO.pages.LoginPage] start login with l.zubtsova@gmail.com
+2023-04-23 10:21:48 Thread: [main] INFO [staticPO.pages.LoginPage] start login with 14033Atc
+2023-04-23 10:21:49 Thread: [main] INFO [staticPO.pages.LoginPage] start clicking Button login 
+2023-04-23 10:21:52 Thread: [main] INFO [staticPO.pages.LoginPage] Method ends
+2023-04-23 10:21:52 Thread: [main] INFO [staticPO.tests.BaseTest] Test ended

@@ -5,18 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="Selenide Assert">
-      <change afterPath="$PROJECT_DIR$/allure-results/1d5d25e0-5f35-4330-a6c9-f4cd3fdc5601-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2299e0c0-f654-48ba-9820-a0754b46922f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4eb9a6cc-d597-43ba-ad17-41dbe2eb59bb-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4f191a60-a21f-4dd3-bf4c-0393a2cbfa22-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/534ae37e-042a-4a1d-ad88-bd51bcf11f51-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/96c7daeb-0eaf-4b5b-ae7b-afe04da81d23-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bceecb3b-a0a2-400b-904c-5184e2ab2657-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d2ea69be-a382-4cef-80c6-64c6faa28264-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d996c28a-6a32-46ce-a291-6b33a9b0bd11-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f2e63614-4025-44db-8b11-966b7cf096d2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f674ce52-7f06-4e31-af1e-ab3acc6d07f6-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catcher.log" beforeDir="false" afterPath="$PROJECT_DIR$/catcher.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/DucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/DucksTest.java" afterDir="false" />
     </list>

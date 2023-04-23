@@ -3,6 +3,7 @@ package staticPO.tests;
 import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
+import io.qameta.allure.Description;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -13,6 +14,7 @@ public class DucksTest extends BaseTest {
 
 
     @Test
+    @Description  ("Count number of ducks on the Rubber Ducks Page")
     public void numberOfDucks() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.getNumberOfDucks();
