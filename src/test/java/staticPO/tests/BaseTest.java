@@ -1,5 +1,6 @@
 package staticPO.tests;
 
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverRunner;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.Logger;
@@ -28,6 +29,7 @@ public class BaseTest {
     public void setup() {
         logger.info("Before test started");
         WebDriverManager.chromedriver().setup();
+        Configuration.headless = false;
         webDriver = new ChromeDriver();
         webDriver.manage().window().maximize();
         loginPage = new LoginPage(webDriver);
